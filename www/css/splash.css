@@ -1,0 +1,44 @@
+﻿.splash-header{
+    float:right;
+    height: 100%;
+}
+
+.splash-footer{
+    float: left;
+    height: 100%;
+}
+
+.splash-content{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+.splash-div-header{
+    height: 25vh;
+}
+
+.splash-div-content{
+    height: 40vh;
+}
+
+.splash-div-footer{
+    height: 35vh;
+}
+
+.splash-load{
+    animation: fadeinout 3s infinite ;
+    width: 8vw;
+    margin-right: 2vw;    
+}
+
+#splash-load{
+    margin-top: 3vh;        
+    padding-left: 35vw;    
+}
+
+@keyframes fadeinout {
+    0%,100% { opacity: 1; }
+    50% { opacity: 0; } 
+}

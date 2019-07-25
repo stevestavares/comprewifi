@@ -1,0 +1,224 @@
+@media (max-width: 2000px) {
+    .navbar-default {
+        background-color: #337ab7;
+        border-color: #337ab7;
+        height: 6vh;
+    }
+		
+		.principal-header-logo {
+    width: 70vw;
+		}
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border: 0;
+        background-color: #337ab7;
+        border-color: #337ab7;
+    }
+
+    .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+        background-color: #204d74 !important;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 3vh;
+        margin-left: 1vw;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 2vh;
+            }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    .navbar-default .navbar-brand {
+        color: #ffffff !important;
+        font-size: 2.7vh;
+        margin-left: 15px !important;
+        font-family: Century Gothic;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #337ab7;
+    }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #ffffff;
+            width: 4vh;
+            height: 0.5vh;
+        }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+        font-size: 2vh;
+    }
+
+    .tela {
+        height: 100%;
+        padding: 0px;
+    }
+
+    .principal {
+        height: 80%;
+        padding-left: 0vw;
+        padding: 0px;
+        margin-top: 10vh;
+    }
+
+    .principal-header {
+        height: 80%;
+        padding-left: 0vw;
+        padding-top: 5vh;
+    }
+
+    .principal-header-logo {
+        width: 70vw;
+        padding-top: 25vh;
+    }
+
+    .principal-content {
+        height: 60%;
+        width: 100%;
+        padding-top: 5vh;
+    }
+
+    .principal-footer {
+        height: 20%;
+        width: 100%;
+        position: absolute;
+        padding-top: 5vh;
+    }
+
+    .principal-content-grid-linha1 {
+        height: 6vh;
+    }
+
+    .principal-content-grid-linha2 {
+        height: 6vh;
+        padding-top: 15vh;
+    }
+
+    .principal-content-mesacomanda {
+        margin: auto;
+        width: 100%;
+        height: 6vh;
+        padding: 0px;
+    }
+
+    .principal-footer-botoes {
+        width: 85vw !important;
+        margin-left: 2vw !important;
+        padding-left: 1vh !important;
+        margin-bottom: 1vh !important;
+        height: 6vh !important;
+    }
+
+    .principal-img-button-vertical {
+        height: 22vh !important;
+        margin: 1vh 1vh;
+    }
+
+    .principal-img-button-horizontal {
+        height: 14vh !important;
+        margin: 1vh 1vh;
+    }
+
+    .principal-img-button-horizontal-mesacomanda {
+        width: 40vh !important;
+        margin: 1vh 1vh;
+    }
+
+    .input-pesquisa {
+        background-color: #32383D;
+        font-family: Century Gothic;
+        font-size: 2vh;
+        width: 100%;
+        height: 5vh; 
+        color: #ffffff;
+        border: 1px solid #ccc;
+        border-color: #32383D;
+        float: right;
+        margin-bottom: 3.5vh;
+    }
+
+    .w3-btn {
+        background-color: rgba(0, 0, 0, 0) !important;
+        border-radius: 100px;
+    }
+
+    .font14 {
+        font-size: 5vh;
+    }
+
+    .font13 {
+        font-size: 4vh;
+    }
+    .font12 {
+        font-size: 3vh;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #337ab7 !important;
+        border-color: #337ab7 !important;
+				border-radius: 36px!important;
+    }
+
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #204d74 !important;
+            border-color: #204d74 !important;
+						border-radius: 36px!important;
+        }
+
+    .menu-navbar{
+        font-family: "Century Gothic";
+        color: #fff;
+        background-color: #337ab7;
+        height: 5vh; 
+        
+    }
+    .menu-titulo{
+        height: 5vh; 
+        font-family: "Century Gothic";
+        color: #fff;
+        font-size: 3vh;
+    }
+    .icon-Voltar2:before {
+    font-size: 4vh;
+    color: #fff;
+}
+}

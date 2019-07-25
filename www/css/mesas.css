@@ -1,0 +1,87 @@
+﻿@media (max-width: 2000px) {
+    .mesa-header {
+        height: 80%;
+        padding-left: 0vw;
+        padding-top: 20vh;        
+    }
+
+    .mesas-botao-ico {
+        height: 6vw;
+        margin-top: 5vw;
+    }
+
+    .mesas-botao {
+        width: 11vh;
+        height: 13vh;
+        font-size: 2.5vh;
+        font-family: Century Gothic;
+        margin: 1vw;
+        border-radius: 9px !important;
+    }
+
+    .mesas-content-grid-linha {
+        height: 6vh;
+        margin-top: 3vh;
+    }
+
+    .mesas-numero {
+        margin-top: 2vh;
+        float: right;
+    }
+
+    .mesa-disponivel{
+        background-color: #87B94C !important;
+        border-color: #87B94C !important;
+    }
+
+    .mesa-disponivel:hover{
+        background-color: #709A3F !important;
+        border-color: #709A3F !important;
+    }
+
+    .mesa-ocupada{
+        background-color: #E82C32 !important;
+        border-color: #E82C32 !important;
+    }
+
+    .mesa-ocupada:hover{
+        background-color: #C7272C !important;
+        border-color: #C7272C !important;
+    }
+
+    .mesa-em-fechamento{
+        background-color: #A74E7A !important;
+        border-color: #A74E7A !important;
+    }
+
+    .mesa-em-fechamento:hover{
+        background-color: #7B3A5A !important;
+        border-color: #7B3A5A !important;
+    }
+
+    .mesa-reservada{
+        background-color: #FFCC29 !important;
+        border-color: #FFCC29 !important;        
+    }
+
+    .mesa-reservada:hover{
+        background-color: #D0A725 !important;
+        border-color: #D0A725 !important;        
+    }
+
+    .mesa-bloqueada{
+        background-color: #5E6973 !important;
+        border-color: #5E6973 !important;
+    }
+
+    .mesa-bloqueada:hover{
+        background-color: #444D54 !important;
+        border-color: #444D54 !important;
+    }
+    .mesa-tabela {
+        border: none;
+        width: 50vh;
+    }
+
+
+}

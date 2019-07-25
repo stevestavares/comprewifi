@@ -1,0 +1,23 @@
+﻿@media (max-width: 2000px) {
+    .cliente-header {
+        height: 80%;
+        padding-left: 0vw;
+        padding-top: 0vh;
+    }
+
+    .cliente-tabela {
+        height: 40vh !important;
+    }
+
+    .cliente-content {
+        margin: auto;
+        width: 100%;
+        height: 6vh;
+        padding: 0px;
+        padding-top: 2vh;
+    }
+
+    .cliente-content-grid {
+        padding-top: 0vh;
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>Compre Wifi</title>
+    <style type="text/css">
+        #login-alert{
+            margin-top: 15vh;
+                display: none;
+        }
+        #cadastro-alert{
+            margin-top: 15vh;
+                display: none;
+        }
+
+    </style>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+        /* following two viewport lines are equivalent to the meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; zoom: 100% ; }  @viewport { width: 100vw ; zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; }           @viewport { user-zoom: fixed ; }
+    </style>
+
+    <script src="cordova.js"></script>          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <script src="js/app.js"></script>           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <script src="xdk/init-dev.js"></script>     <!-- normalizes device and document ready events, see README for details -->
+    
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/splash.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
+    <link rel="stylesheet" type="text/css" href="css/cliente.css">      
+    <script type="text/javascript" src="scripts/jquery/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap/bootstrap.js"></script>        
+    <script type="text/javascript" src="scripts/sleep.js"></script>
+    <script type="text/javascript" src="scripts/splash.js"></script>        
+    <script type="text/javascript" src="scripts/login.js"></script>
+    <script type="text/javascript" src="scripts/cadastro.js"></script>
+    <script type="text/javascript" src="scripts/principal.js"></script>
+    <script type="text/javascript" src="scripts/cliente.js"></script>
+    <script type="text/javascript" src="scripts/menu.js"></script>
+    
+</head>
+
+<body>
+
+         <div id="menu" class="tela"></div>
+         <div id="tela" class="tela"></div>
+        <script type="text/javascript" src="scripts/index.js"></script>
+
+</body>
+</html>

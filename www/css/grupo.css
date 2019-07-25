@@ -1,0 +1,49 @@
+﻿@media (max-width: 2000px) {
+
+     .grupo-header {
+		height: 80%;    
+		padding-left: 0vw;
+		padding-top: 0vh;
+	}
+
+    .grupo-img-button-vertical {
+        height: 18vh !important;
+        margin: 1vh 1vh;
+    }
+
+    .grupo-img-button-horizontal {
+        height: 14vh !important;
+        margin: 4vh 1vh;
+    }
+
+    .grupo-botao{
+		width: 15vh;
+		height: 18vh;
+		font-size: 1.2vh;
+        font-family: Century Gothic;
+		margin-left:1.3vh;
+        margin-bottom:1.3vh;
+		border-radius: 4px !important;
+		background-color: #FC9300;
+		border-color: #FC9300 !important;	
+	}
+
+    .grupo-produto-botao-ico{
+		width: 8vh;
+	}
+
+    .grupo-content-grid{
+		padding-top: 2vh;	
+	}
+
+    .grupo-span{
+		float: right;	
+	}
+
+    .grupo-tabela {
+        border: none;
+        width: 50vh;
+    }
+
+
+}

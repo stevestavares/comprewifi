@@ -1,0 +1,99 @@
+﻿.navbar-mesaProduto {
+    margin-bottom: 0px !important;
+}
+
+@media(max-width: 720px) {
+    .navbar-mesaProduto-cliente {
+        margin-top: 7.8vh;
+        background-color: white;
+        border-color: white;
+        padding-left: 15px;
+        height: 10vh;
+    }
+
+    .mesaProduto-estilo-fonte{
+        font-family: "Century Gothic";
+    }
+
+}
+
+@media(min-width: 720px) {
+    .navbar-mesaProduto-cliente {
+        margin-top: 6vh;
+        background-color: white;
+        border-color: white;
+        padding-left: 15px;
+        height: 10vh;
+    }
+
+    .mesaProduto-estilo-fonte{
+        font-family: "Century Gothic";
+        font-size: 2vh;
+    }
+
+}
+
+.mesaProduto-fundo {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.mesaProduto-lista-produtos {
+    background-color: white;
+    margin-top: 16vh;
+    margin-bottom: 12vh;
+    padding-left: 15px;    
+}
+
+.mesaProduto-numero-mesa {
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+    height: 10vh;   
+    padding-left: 0px !important; 
+}
+
+.mesaProduto-nome-cliente {
+    font-size: 4vh;
+    text-align: left;
+    height: 10vh;
+    vertical-align: bottom;
+    padding-top: 1vh;    
+}
+
+.mesaProduto-footer {
+    background-color: #32383D; 
+    height: 12vh;
+}
+
+.mesaProduto-lista-produtos-content{
+    border-left: none;
+}
+
+.mesaProduto-footer-icone{
+    font-size: 5vh;
+    text-align: center;    
+}
+
+.mesaProduto-footer-texto{
+    font-size: 2vh;
+    padding-top: 1vh;
+    text-align: center;    
+}
+
+.mesaProduto-icone-add{
+    padding-top: 2vh;
+}
+
+.mesaProduto-centraliza-horizontal{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.mesaProduto-lista-produtos-item{
+    text-align: left;
+    font-weight: bold;
+}
